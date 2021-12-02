@@ -2,7 +2,7 @@ from copy import deepcopy
 from pathlib import Path
 
 current_directory = Path('.')
-with open(current_directory / 'day_one/input.txt', 'r') as input_file:
+with open(current_directory / 'day_one' / 'input.txt', 'r') as input_file:
     measurements = input_file.read().split('\n')
 
 measurements = [int(measurement) for measurement in measurements]
